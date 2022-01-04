@@ -1,8 +1,6 @@
 import * as React from "react";
 import { Link } from "gatsby";
 import * as styles from "./header.module.css"
-import { StaticImage } from "gatsby-plugin-image";
-
 
 const Header = () => (
   <header className={styles.headerContainer} >
@@ -13,6 +11,5 @@ const Header = () => (
         <Link to="/contact" className={styles.item}>Contact</Link>
   </header>
 )
-
 
 export default Header;
