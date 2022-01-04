@@ -15,9 +15,7 @@
 }
 
 .logo {
-    margin-top: 10%;
-    width: 550px;
-    height: 90px;
+    width: 60px;
     float: right;
     padding: 0px;
     margin-right: 0px;
@@ -26,6 +24,7 @@
 
 .imgLogo {
     width: 7%;
+    height: 100px;
 }
 
 
@@ -37,3 +36,4 @@ a {
 a:hover {
     color: lightskyblue;
 }
+
