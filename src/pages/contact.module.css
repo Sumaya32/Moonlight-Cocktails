@@ -1,0 +1,102 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    margin-bottom: 10%;
+
+}
+
+.contactImg {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 100%;
+    height: 50vh;
+}
+
+.headerContainer {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+
+.contactInfo {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.companyInformation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 40vh;
+    border-radius: 20px;
+    box-shadow: 5px 10px 20px rgb(32, 32, 32);
+}
+
+.mapDiv {
+    margin-left: 10%;
+    border-radius: 20px;
+    width: 50%;
+    height: 40vh;
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 10px 20px rgb(32, 32, 32);
+}
+
+
+
+@media screen and (max-width: 769px) {
+    .companyInformation {
+        font-size: 0.4em;
+    }
+
+    .contactInfo {
+        margin-top: 1%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mapDiv {
+        margin-left: 0%;
+        width: 80%;
+    }
+
+    .companyInformation {
+      margin-bottom: 5%;
+      width: 80%;
+
+    }
+
+
+    
+
+
+
+    
+}

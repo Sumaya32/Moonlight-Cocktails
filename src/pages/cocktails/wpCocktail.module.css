@@ -1,0 +1,120 @@
+.container {
+    width: 100%;
+    height: 100%;
+    font-family: Garamond, serif;
+}
+
+.sectionOneBigContainer, .sectionTowBigContainer {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sectionOneSmallContainer, .sectionTwoSmallContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.infoContainer, .ingredientsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 80%;
+
+}
+
+.ingredients {
+    list-style: none;
+    text-align: center;
+    width: 80%;
+}
+
+.ingredientGroup {
+    color: black;
+}
+
+
+.description, .instructions {
+    width: 80%;
+    margin-left: 4%;
+}
+
+.name {
+    text-align: center;
+    width: 50%;
+    height: 20%;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+}
+
+.bannerImg {
+    width: 75%;
+    height: 460px;
+    border-radius: 70%;
+}
+
+.picture {
+    width: 30%;
+    height: 500px;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sectionOneSmallContainer, .sectionTwoSmallContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bannerImg {
+        width: 100%;
+        height: 300px;
+    }
+
+    .imgContainer {
+        width: 70%;
+    }
+
+    .picture {
+        width: 60%;
+        height: 300px;
+    }
+
+  div h1 {
+        font-size: 1.5em;
+    }
+
+}
+
+
+
+@media screen and (width: 768px) {
+    .imgContainer {
+        width: 50%;
+    }
+}

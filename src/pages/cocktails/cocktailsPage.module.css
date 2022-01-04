@@ -1,0 +1,84 @@
+html, body{
+  min-height: 100%;
+
+}
+
+.container{
+  height: 100%;
+  margin-bottom: 10%;
+}
+.bigContainer{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+
+  .smallContainerCocktailPage{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: auto;
+  }
+  
+.underline{
+    border-bottom: 5px solid;
+    color: lightskyblue;
+    display: inline-block;
+    line-height: 0.85;
+    width: 80%
+  }
+  
+  .underlineDiv{
+  display: flex;
+    justify-content: center;
+    margin-bottom: 100px
+  }
+  
+  
+  
+  .imgDiv{
+    margin-top: 5px;
+      margin-right: 20px;
+      background-color: white;
+      width: 250px;
+      height: 250px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      box-shadow: 5px 10px 20px rgb(32, 32, 32);
+      border-radius: 15px
+  
+  }
+  
+  
+  .textCocktailPage{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5em;
+    margin-bottom: 50px
+    }
+
+
+    @media screen and (max-width: 768px) {
+  
+      .smallContainerCocktailPage{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        height: auto;
+      }
+      
+    
+.container{
+  margin-bottom: 50%;
+}
+    }

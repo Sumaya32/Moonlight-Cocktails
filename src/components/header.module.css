@@ -1,0 +1,39 @@
+.headerContainer {
+    background-color: white;
+    height: 150px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.item {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.logo {
+    margin-top: 10%;
+    width: 550px;
+    height: 90px;
+    float: right;
+    padding: 0px;
+    margin-right: 0px;
+}
+
+
+.imgLogo {
+    width: 7%;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: lightskyblue;
+}
